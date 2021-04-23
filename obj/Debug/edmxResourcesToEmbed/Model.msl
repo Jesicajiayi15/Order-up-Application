@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Databaseuassem2Model1StoreContainer" CdmEntityContainer="Databaseuassem2Entities1">
+    <EntitySetMapping Name="orderups">
+      <EntityTypeMapping TypeName="Databaseuassem2Model1.orderup">
+        <MappingFragment StoreEntitySet="orderups">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="no_table" ColumnName="no_table" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Total_price" ColumnName="Total_price" />
+          <ScalarProperty Name="Cust_comment" ColumnName="Cust_comment" />
+          <ScalarProperty Name="Time_order" ColumnName="Time_order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
